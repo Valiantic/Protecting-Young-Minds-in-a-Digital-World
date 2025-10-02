@@ -1,0 +1,158 @@
+
+
+body{
+    font-family: Arial, sans-serif;
+    margin: 20px;
+    color: #333;
+}
+
+header {
+    text-align: center;
+    margin-bottom: 40px;
+    padding: 10px;
+    font-size: 34px;
+    font-weight: bold;
+    color: white;
+    text-shadow: -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000, 1px 1px 0 #000;
+}
+
+p{
+    line-height: 1.6;
+    margin-bottom: 10px;
+    align-items: justify;
+    font-size: 20px;
+    font-weight: 400;
+}
+
+main{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #EFD9AF;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+article{
+    padding: 20px;
+    max-width: 800px;
+    width: 100%;
+}
+
+
+ .campaign-section {
+            padding: 60px 0;
+        }
+        .section-title {
+            font-weight: bold;
+            font-size: 2rem;
+            margin-bottom: 30px;
+            color: #1a1a1a;
+        }
+        .card {
+            border: none;
+            border-radius: 20px;
+            padding: 25px;
+            margin-bottom: 20px;
+            background: rgba(255, 255, 255, 0.9);
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+            transition: transform 0.3s ease;
+            height: 100%;
+        }
+        .card:hover {
+            transform: translateY(-5px);
+            box-shadow: 0 8px 12px rgba(0, 0, 0, 0.15);
+        }
+        .card-text {
+            color: #333;
+            font-size: 0.95rem;
+            line-height: 1.6;
+        }
+        .card-title {
+            font-weight: 600;
+            color: #1a1a1a;
+            margin-bottom: 15px;
+        }
+        .full-width-card {
+            background: rgba(255, 255, 255, 0.85);
+        }
+        .purpose-section, .programs-section {
+            background: rgba(255, 255, 255, 0.7);
+        }
+        .purpose-text {
+            font-size: 1.05rem;
+            line-height: 1.8;
+            color: #333;
+        }
+        .subsection-title {
+            font-weight: 600;
+            font-size: 1.5rem;
+            color: #1a1a1a;
+        }
+
+          .contact-section {
+            background: rgba(255, 255, 255, 0.7);
+        }
+        .contact-card {
+            display: flex;
+            align-items: center;
+            gap: 20px;
+            padding: 25px;
+            background: rgba(255, 255, 255, 0.95);
+            border-radius: 15px;
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+            transition: all 0.3s ease;
+            height: 100%;
+        }
+        .contact-card:hover {
+            transform: translateY(-5px);
+            box-shadow: 0 8px 12px rgba(0, 0, 0, 0.15);
+        }
+        .contact-icon-wrapper {
+            flex-shrink: 0;
+            width: 60px;
+            height: 60px;
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            border-radius: 12px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            color: white;
+        }
+        .contact-icon {
+            width: 32px;
+            height: 32px;
+        }
+        .contact-content {
+            flex: 1;
+        }
+        .contact-title {
+            font-size: 0.85rem;
+            font-weight: 700;
+            color: #666;
+            margin-bottom: 8px;
+            letter-spacing: 0.5px;
+            text-transform: uppercase;
+        }
+        .contact-detail {
+            font-size: 1rem;
+            color: #1a1a1a;
+            margin: 0;
+            font-weight: 500;
+            line-height: 1.5;
+        }
+        .person-incharge {
+            justify-content: center;
+            max-width: 600px;
+            margin: 0 auto;
+        }
+        .donation-info {
+            background: rgba(240, 240, 240, 0.9);
+        }
+        .purpose-text {
+            font-size: 1.05rem;
+            line-height: 1.8;
+            color: #333;
+        }
