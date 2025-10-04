@@ -1,9 +1,14 @@
 
 
 body{
-    font-family: Arial, sans-serif;
+    font-family: 'Bookman Old Style', Bookman, serif;
     margin: 20px;
     color: #333;
+    font-size: 12px;
+}
+/* First section font size */
+#title-header:first-of-type, #title-header:first-of-type * {
+    font-size: 14px !important;
 }
 
 header {
